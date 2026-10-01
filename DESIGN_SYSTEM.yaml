@@ -1,0 +1,75 @@
+brand:
+  name: Ecotech Invest
+  source: ../source/brandbook/Brandbook_Ecotech_Invest.pdf
+  source_sha256: 671ddc546a2675242cf433a50db29671e4749d493a00023a7958834f56677e37
+  source_pages: 41
+  authority: canonical
+
+principles:
+  - high-contrast black and white base
+  - orange-to-red energy gradient as the only dominant accent
+  - strong geometric headings
+  - restrained rounding and no decorative glass effects
+  - large whitespace and explicit hierarchy
+
+color:
+  black: "#050505"
+  ink: "#111111"
+  white: "#FFFFFF"
+  paper: "#F6F6F4"
+  muted: "#6E6E69"
+  line: "#DADAD5"
+  orange: "#FF6A1A"
+  coral: "#FF4938"
+  accent_gradient: "linear-gradient(135deg, #FF7A16 0%, #FF4938 100%)"
+  positive: "#16834A"
+  informational: "#3478B8"
+
+logo:
+  preferred_web_lockup: horizontal
+  default_on_white: orange mark with black wordmark
+  default_on_black: orange mark with white wordmark
+  compact_use: vertical lockup
+  mark_only: permitted where the brand is already recognizable or space is constrained
+  dashboard_asset: assets/ecotech-logo-sidebar.png
+  asset_source: brandbook page 6, approved web color combination
+
+layout:
+  sidebar_width_px: 276
+  content_max_width_px: 1480
+  card_radius_px: 8
+  control_radius_px: 4
+  section_spacing_px: 36
+  card_border_px: 1
+
+components:
+  sidebar:
+    background: black
+    active_item: orange gradient with black text
+  hero:
+    heading_weight: 900
+    heading_transform: none
+    accent_rule: orange gradient
+  cards:
+    background: white
+    border: line
+    shadow: subtle hard shadow
+  tables:
+    header_background: black
+    header_text: white
+    active_accent: orange
+  charts:
+    primary: orange gradient
+    secondary: black
+    positive: positive
+
+frozen_layer:
+  preserve:
+    - all metric values
+    - all dates and periods
+    - all labels and explanatory copy
+    - view IDs and navigation targets
+    - JavaScript behavior
+    - order of sections
+  baseline_text_sha256: fee28224f2e069a794ebadf134b25d2555e92fea44f73bfd981988127d1f5b01
+  baseline_numeric_sha256: 0782feddd3e01f4a980e20b6c664876364812c9f796449e52b5c5875a3ef0693
